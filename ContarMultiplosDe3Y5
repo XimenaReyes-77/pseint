@@ -1,4 +1,4 @@
-Proceso ContarMultiplosDe3Y5
+Algoritmo ContarMultiplosDe3Y5
     Definir contador Como Entero
     contador <- 0
 	
@@ -9,4 +9,4 @@ Proceso ContarMultiplosDe3Y5
     FinPara
 	
     Escribir "La cantidad de números menores de 1000 que son múltiplos de 3 y de 5 es: ", contador
-FinProceso
+FinAlgoritmo
