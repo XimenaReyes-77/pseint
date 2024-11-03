@@ -1,0 +1,15 @@
+Algoritmo numeromayor
+	Definir numero, mayor Como Real
+    mayor <- -999999  // Se inicializa con un valor muy bajo
+	
+    Para i <- 1 Hasta 5 Hacer
+        Escribir "Ingrese el número ", i, ": "
+        Leer numero
+		
+        Si numero > mayor Entonces
+            mayor <- numero
+        FinSi
+    FinPara
+	
+    Escribir "El número mayor introducido es: ", mayor
+FinAlgoritmo
