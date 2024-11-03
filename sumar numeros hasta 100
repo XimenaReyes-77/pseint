@@ -1,0 +1,18 @@
+Algoritmo SumarNumerosHastaCien
+    Definir numero, suma Como Entero
+    suma <- 0
+	
+    Escribir "Ingrese un número menor a cien: "
+    Leer numero
+	
+    Si numero >= 100 Entonces
+        Escribir "El número ingresado no es menor a cien. Intente de nuevo."
+    Sino
+        Para i <- 1 Hasta numero Hacer
+            suma <- suma + i
+        FinPara
+		
+        Escribir "La suma de los números entre 1 y ", numero, " es: ", suma
+        Escribir "El doble de la suma es: ", (2 * suma)
+    FinSi
+FinAlgoritmo
