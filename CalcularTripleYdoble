@@ -1,4 +1,4 @@
-Proceso CalcularTripleYdoble
+Algoritmo CalcularTripleYdoble
     Definir num1, num2, resultado Como Entero
 
     Escribir "Ingrese el primer número:"
@@ -9,4 +9,4 @@ Proceso CalcularTripleYdoble
     resultado <- (3 * num1) + (2 * num2)
 	
     Escribir "El resultado es: ", resultado
-FinProceso
+FinAlgoritmo
